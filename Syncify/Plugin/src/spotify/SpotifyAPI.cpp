@@ -289,7 +289,7 @@ std::string SpotifyAPI::Encode(const std::string& url)
 			escaped << "%20";
 		}
 		else {
-			escaped << '%' << std::uppercase << std::setw(2) << int(c);
+			escaped << '%' << std::uppercase << std::setw(2) << static_cast<int>(c);
 		}
 	}
 

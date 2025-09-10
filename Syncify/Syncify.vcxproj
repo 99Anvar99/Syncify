@@ -122,6 +122,7 @@
     <ClCompile Include="Plugin\src\rendering\impl\SimpleOverlay.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Plugin\src\font_ranges.h" />
     <ClInclude Include="Plugin\src\rendering\impl\CompactOverlay.h" />
     <ClInclude Include="Plugin\src\rendering\Overlay.h" />
     <ClInclude Include="Plugin\external\bakkes\logging\logging.h" />
@@ -158,6 +159,5 @@
     <None Include="update_version.ps1" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets">
-  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
 </Project>
